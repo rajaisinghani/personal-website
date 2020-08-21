@@ -10125,7 +10125,7 @@ h3 {
 
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
