@@ -55,8 +55,7 @@
     margin: auto;
 }
 
-
-  a:hover svg{
+a:hover svg{
       color: #117964;
       text-decoration: none;
   }
@@ -73,4 +72,14 @@ a:hover{
 
 #mainNav {
     font-weight: normal;
+}
+
+.social-link a:hover svg{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
