@@ -39,26 +39,28 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+            <div class="container js-fullheight d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+                <img class="masthead-avatar rounded-circle mb-5" src="assets/img/profile.jpg" alt="" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0 cursor message">Raj Jaisinghani<span>.</span></h1>
+                
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+<!--                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
-                </div>
+                </div> -->
                 <!-- Masthead Subheading-->
                 <p class="masthead-heading text-uppercase font-weight-light mb-0">Hi My name is</p>
+                <div class="divider-custom divider-light"></div>
+                <h1 class="masthead-heading text-uppercase mb-0 cursor message">Raj Jaisinghani<span>.</span></h1>
             </div>
         </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h1 class="text-center display-1 text-secondary display-3">Portfolio</h1>
+                <h1 class="text-center text-secondary display-3 slide-in-1">Portfolio</h1>
                 <p class="text-muted text-center mt-4 mb-6 lead">Check out some of the projects I've been working on in my free time below.</p>
                 <!--Divider-->
                 <div class="divider-custom"></div>
@@ -129,7 +131,7 @@
         <section class="page-section text-secondary mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase">About</h2>
+                <h1 class="text-center text-secondary display-3">About me</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -138,18 +140,18 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <h6 class="display-4">Hey, this is Raj.</h6>
-                        <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    <div class="col-lg-5 ml-auto">
+                        <p class="display-4">Hey, this is Raj.</p>
+                        <img class="img profile-img align-items-center rounded-circle" src="assets/img/profile.jpg" alt="profile image">
                     </div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
+                    <div class="col-lg-5 mr-auto">
+                    <p class="lead">
+                        I'm currently a Computer Science major at the University of Maryland. I'm a software engineer interested in front end iOS and web development. Check out some of my <a href="#portfolio">work below.</a>
+                    </p>
+                    <p class="lead">
+                        My other interests include sports, gaming and listening to music.    
+                    </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -157,8 +159,8 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h1 class="text-center display-1 text-secondary display-3">Contact me</h1>
-                <p class="text-muted text-center mt-4 mb-6 lead">Feel free to reach out to me</p>
+                <h1 class="text-center text-secondary display-3 slide-in-2">Contact me</h1>
+                <p class="text-muted text-center mt-4 mb-6 lead">Feel free to reach out to me below</p>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                 </div>
@@ -166,13 +168,13 @@
                 <div class="row">
                     <div class="col-lg-4 ml-auto">
                         <div class="social-link d-flex align-items-center mt-4">
-                            <a class="btn btn-outline-dark btn-social mx-1" href="https://www.linkedin.com/in/raj-jaisinghani-35ab76156/">
+                            <a class="btn btn-outline-dark btn-social mx-4" href="https://www.linkedin.com/in/raj-jaisinghani-35ab76156/">
                                 <i class="fab fa-fw fa-linkedin-in"></i>
                             </a>
                             <p class="mt-auto">linkedin.com/in/raj-jaisinghani</p>
                         </div>  
                         <div class="social-link d-flex align-items-center mt-4">
-                            <a class="btn btn-outline-dark btn-social mx-1" href="https://www.github.com/rajaisinghani">
+                            <a class="btn btn-outline-dark btn-social mx-4" href="https://www.github.com/rajaisinghani">
                                 <i class="fab fa-fw fa-github"></i>
                             </a>
                             <p class="mt-auto">github.com/rajaisinghani</p>
@@ -180,13 +182,13 @@
                     </div>
                     <div class="col-lg-4 mr-auto">
                         <div class="social-link d-flex align-items-center mt-4">
-                            <a class="btn btn-outline-dark btn-social mx-1" href="#!">
+                            <a class="btn btn-outline-dark btn-social mx-4" href="#!">
                                 <i class="fas fa-fw fa-phone-alt"></i>
                             </a>
                             <p class="mt-auto">(301)-642-5121</p>
                         </div>  
                         <div class="social-link d-flex align-items-center mt-4">
-                            <a class="btn btn-outline-dark btn-social mx-1" href="https://www.gmail.com">
+                            <a class="btn btn-outline-dark btn-social mx-4" href="https://www.gmail.com">
                                 <i class="fas fa-fw fa-inbox"></i>
                             </a>
                             <p class="mt-auto">rajaisinghani6@gmail.com</p>

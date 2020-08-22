@@ -67,3 +67,36 @@
   
   })(jQuery); // End of use strict
   
+  //slide in left animation
+  $(document).ready(function(){
+    $(window).scroll(function () {
+      triggerSlideIns( $(this), [ $('h1.slide-in-1'), $('h1.slide-in-2'), $('img.profile-img')]);
+    });
+  });
+  
+  $.getDocHeight = function(){
+    return Math.max(
+        $(document).height(),
+        $(window).height(),
+        document.documentElement.clientHeight
+    );
+  };
+  
+  $.getScrollPercentage = function(){
+    return 100 * Math.min(
+      ($(window).height() + $(window).scrollTop()) / $.getDocHeight(),
+      $(window).scrollTop()
+      );
+  };
+  
+  var triggerSlideIns = function(t, items) {
+    
+    for (var i = 0; i < items.length; i++) {
+      if((( $.getDocHeight() - $(window).height()) - ( $.getDocHeight() - items[i].offset().top )) <= t.scrollTop()) {
+        if(!items[i].hasClass('transitionSlideIn'))
+        {
+          items[i].addClass('transitionSlideIn');
+        }
+      } else { items[i].removeClass('transitionSlideIn'); }
+    }
+  };

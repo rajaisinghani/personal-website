@@ -56,11 +56,11 @@
 }
 
 a:hover svg{
-      color: #117964;
-      text-decoration: none;
-  }
+    color: #117964;
+    text-decoration: none;
+}
 
-  a{
+a{
     color: inherit;
     text-decoration: none;
 }
@@ -80,6 +80,19 @@ a:hover{
 }
 
 .btn:focus {
-  outline: none;
-  box-shadow: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@keyframes fade-in-left {
+    0%      { transform: translate(-50%,0); opacity:0; }
+    100%    { transform: translate(0,0);   opacity:1; }
+  }
+  .transitionSlideIn {
+    opacity: 1;
+    animation: fade-in-left 1s 1;
+  }
+
+img.profile-img {
+    width: 100%;
 }
