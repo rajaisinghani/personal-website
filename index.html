@@ -70,10 +70,10 @@
                     <!-- About Section Content-->
                     <div class="row">
                         <div class="col-lg-5 ml-auto my-auto">
-                            <p class="display-4">Hey, this is Raj.</p>
                             <img class="img profile-img align-items-center rounded-circle my-auto" src="assets/img/profile.jpg" alt="profile image">
                         </div>
                         <div class="col-lg-5 mr-auto my-auto">
+                                <p class="display-4">Hey, this is Raj.</p>
                         <p class="lead">
                             I'm currently a Computer Science major at the University of Maryland. I'm a software engineer interested in front end iOS and web development. Check out some of my <a class="js-scroll-trigger" href="#portfolio">work below.</a>
                         </p>
@@ -92,14 +92,13 @@
         <section class="page-section text-secondary mb-0" id="experience">
             <div class="container">
                 <!-- About Section Heading-->
-                <h1 class="text-center text-secondary display-3">Education</h1>
+                <h1 class="text-center text-secondary display-4 slide-in-3">Education</h1>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                </div>
+                <div class="divider-custom-lg divider-light"></div>
                 <!-- About Section Content-->
-                    <div class="col-lg-8 my-auto mx-auto">
+                    <div class="col-lg-10 my-auto mx-auto">
                         <div class="d-flex exp-item mt-4">
-                            <div class="year col-lg-4">
+                            <div class="year text-right col-lg-4">
                                 <p class="">2017 - May 2021 Expected</p>
                             </div>
                             <div class="col-lg-8">
@@ -108,8 +107,8 @@
                             </div>
                         </div>
                         <div class="d-flex exp-item mt-4">
-                                <div class="year col-lg-4">
-                                        <p class="">2006 - 2017</p>
+                                <div class="year text-right col-lg-4">
+                                        <p>2006 - 2017</p>
                                 </div>
                                 <div class="col-lg-8">
                                     <p class="h6">United World College of South East Asia, Singapore</p>
@@ -117,27 +116,32 @@
                                 </div>
                         </div>
                     </div>
+            </div>
+        </section>
 
-                    <div class="divider-custom divider-light"></div>
-
-                    <div class="col-lg-8 my-auto mx-auto">
+        <!--(TEST TO REMOVE LATER) Work Experience Section-->
+        <section class="page-section text-secondary mb-0" id="work-experience">
+            <div class="container">
+                    <h1 class="text-center text-secondary display-4">Work Experience</h1>
+                    <div class="divider-custom-lg divider-light"></div>
+                    <div class="col-lg-10 my-auto mx-auto">
                             <div class="d-flex exp-item mt-4">
-                                <div class="year col-lg-4">
-                                    <p class="lead">June - Aug 2019</p>
+                                <div class="year text-right col-lg-4">
+                                    <p class="">June - Aug 2019</p>
                                 </div>
-                                <div class="col-lg-8" style="border-bottom: 1px solid #117964">
-                                    <p class="lead">Software Engineering Intern</p>
-                                    <p class="text-muted">USER Experience Researchers</p>
+                                <div class="col-lg-8">
+                                    <p class="h5">Software Engineering Intern <small class="text-muted">@USER Experience Researchers</small></p>
+                                    <p class="text-muted">Singapore</p>
                                     <p>Developed a WeChat mini program using JavaScript and wxml to increase post arrival expenses of Chinese tourists in Resort World Sentosa, received public vote winner award in the <a class="text-muted" href="https://www.wechatdeveloperchallenge.com/index.html">ﬁrst global WeChat Developer Challenge in Singapore</a></p>
                                     <p>Worked on Resort World Sentosa casino front end management system using React</p>
                                 </div>
                             </div>
                             <div class="d-flex exp-item mt-4">
-                                    <div class="year col-lg-4">
-                                            <p class="lead">June - Aug 2018</p>
+                                    <div class="year text-right col-lg-4">
+                                            <p class="">June - Aug 2018</p>
                                     </div>
-                                    <div class="col-lg-8" style="border-bottom: 1px solid #117964">
-                                        <p class="lead">Freelance iOS Developer</p>
+                                    <div class="col-lg-8">
+                                        <p class="h5">Freelance iOS Developer</p>
                                         <p class="text-muted">Pulse Voter</p>
                                         <p>Developed Pulse Voters (Stanford startup) front end iOS application using React Native, worked on integrating API interfaces with their back end servers</p>
                                         <p>Link to App: https://itunes.apple.com/us/app/pulse-voter/id1436359133</p>
@@ -147,6 +151,9 @@
             </div>
         </section>
 
+
+
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -154,7 +161,7 @@
                 <h1 class="text-center text-secondary display-3 slide-in-1">Portfolio</h1>
                 <p class="text-muted text-center mt-4 mb-6 lead">Check out some of the projects I've been working on in my free time below.</p>
                 <!--Divider-->
-                <div class="divider-custom"></div>
+                <div class="divider-custom-lg"></div>
                 <!-- Portfolio Grid Items-->
                 <div class="row">
                     <!-- Portfolio Item 1-->
@@ -187,17 +194,17 @@
                                 <i class="fas fa-basketball-ball fa-3x icon"></i>
                                 <p class="mt-4 text-muted">Python script that predicts the annual salary of an NBA player given a range of his on court statistics</p> 
                                 </a>
-                                
-                        </div>
+                            </div>
                     </div>
                     <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item portfolio-content mx-auto" data-target="#portfolioModal1">
+                                <a class="git-link mx-auto" href="https://github.com/mckapur/Pulse">
+                                <h6 class="text-center mt-2 mb-3">Pulse Voter</h6>
+                                <i class="fas fa-bullhorn fa-3x icon"></i>
+                                <p class="mt-4 text-muted">A civic engagement platform that connects citizens to their elected representatives on a per-bill basis. Freelance project developed for Pulse Voter in React Native. </p> 
+                                </a>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
                     </div>
                     <!-- Portfolio Item 5-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
@@ -263,10 +270,10 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer text-center">
+<!--         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
-                    <!-- Footer Location-->
+                    //Footer Location
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
@@ -275,7 +282,7 @@
                             Clark, MO 65243
                         </p>
                     </div>
-                    <!-- Footer Social Icons-->
+                    //Footer Social Icons
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
@@ -283,7 +290,7 @@
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                     </div>
-                    <!-- Footer About Text-->
+                    //Footer About Text
                     <div class="col-lg-4">
                         <h4 class="text-uppercase mb-4">About Freelancer</h4>
                         <p class="lead mb-0">
@@ -294,7 +301,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright © Raj Jaisinghani 2020</small></div>

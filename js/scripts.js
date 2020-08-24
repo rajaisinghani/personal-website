@@ -70,7 +70,7 @@
   //slide in left animation
   $(document).ready(function(){
     $(window).scroll(function () {
-      triggerSlideIns( $(this), [ $('h1.slide-in-1'), $('h1.slide-in-2'), $('img.profile-img')]);
+      triggerSlideIns( $(this), [ $('h1.slide-in-1'), $('h1.slide-in-2'), $('h1.slide-in-3'), $('img.profile-img')]);
     });
   });
   
